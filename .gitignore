@@ -1,0 +1,19 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
