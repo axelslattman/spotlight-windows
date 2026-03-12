@@ -1,0 +1,10 @@
+# Runtime dependencies for the Spotlight-style launcher.
+# Install with: pip install -r requirements.txt
+
+# PyQt6 – the GUI framework used to build the floating launcher window.
+# Qt is a mature C++ framework; PyQt6 wraps it so we can use it from Python.
+PyQt6>=6.6
+
+# keyboard – lets us register a *global* hotkey that works even when our
+# window is in the background. It installs a low-level OS keyboard hook.
+keyboard>=0.13
